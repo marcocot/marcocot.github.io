@@ -26,7 +26,10 @@
     <![endif]-->
 </head>
 
-<body>
+<body itemscope itemprop="author" itemtype="http://schema.org/Person">
+  <meta itemprop="description" content="{{ $.Site.Params.profile.description }}">
+  <meta itemprop="birthDate" content="1985-02-19">
+  <link itemprop="url" href="{{ $.Site.BaseUrl }}" rel="author"/>
 
   <header class="header">
     <div class="top-bar container-fluid">
@@ -40,14 +43,11 @@
     <div class="intro">
       <div class="container text-center">
         <img class="profile-image" src="{{ "/images/profile-image.png" | relURL }}" alt="Marco Cotrufo" title="Marco Cotrufo">
-        <h1 class="name">{{ .Site.Params.Author }}</h1>
-        <div class="title">Full Stack Developer</div>
+        <h1 class="name" itemprop="name">{{ .Site.Params.Author }}</h1>
+        <div class="title" itemprop="jobtitle">Full Stack Developer</div>
         <div class="profile">
-          <p>Profile info goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-            felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-            fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
-        </div>
+          <p>{{ .Site.Params.profile.description }}</p>
+        </div> 
         <!--//profile-->
       </div>
       <!--//container-->
@@ -59,7 +59,7 @@
         <ul class="list-inline">
           <li class="email list-inline-item">
             <i class="fa fa-envelope"></i>
-            <a href="mailto:{{ .Site.Params.profile.email }}">{{ .Site.Params.profile.email }}</a>
+            <a itemprop="email" href="mailto:{{ .Site.Params.profile.email }}">{{ .Site.Params.profile.email }}</a>
           </li>
           <li class="website list-inline-item">
             <i class="fa fa-globe"></i>
