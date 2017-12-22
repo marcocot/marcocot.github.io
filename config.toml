@@ -44,6 +44,14 @@ googleAnalytics = "UA-101336151-2"
     Skills = ["PHP", "AWS"]        
 
   [[params.experience]]
+    Company = "OttoPartners"
+    Place = "Foggia, Italy"
+    Title = "Technical Leader"
+    When = "2013"
+    Description = "Development of \"WuKumpra\", a portal for B2C, developed in Python/Django. I managed a team of 3 people and implemented Continus Integration solutions, Continus Development and business inteligence."
+    Skills = ["Python", "Django", "Javascript"]        
+
+  [[params.experience]]
     Company = "Know K."
     Place = "Foggia, Italy"
     Title = "Software developer"
@@ -142,6 +150,13 @@ googleAnalytics = "UA-101336151-2"
     URL = "http://ilsipontino.net"
     Image = "/images/projects/ilsipontino.png"
     Skills = "Django"        
+
+  [[params.projects]]
+    Name = "WuKumpra"
+    Type = "backend frontend"
+    URL = "http://wukumpra.it"
+    Image = "/images/projects/wukumpra.png"
+    Skills = "Django"      
 
 [[menu.main]]
   name = "Experiences"
