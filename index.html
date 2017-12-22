@@ -23,7 +23,10 @@
   
 </head>
 
-<body>
+<body itemscope itemprop="author" itemtype="http://schema.org/Person">
+  <meta itemprop="description" content="I am a software engineer in love with my work, looking for continuous challenges and new horizons. &#34;Anyone who stops learning is old, twenty or eighty years old. Anyone who continues to learn remains young. The greatest thing in life is to keep one&#39;s mind young&#34; (Henry Ford).">
+  <meta itemprop="birthDate" content="1985-02-19">
+  <link itemprop="url" href="http://marcocotrufo.me/" rel="author"/>
 
   <header class="header">
     <div class="top-bar container-fluid">
@@ -61,14 +64,11 @@
     <div class="intro">
       <div class="container text-center">
         <img class="profile-image" src="/images/profile-image.png" alt="Marco Cotrufo" title="Marco Cotrufo">
-        <h1 class="name">Marco Cotrufo</h1>
-        <div class="title">Full Stack Developer</div>
+        <h1 class="name" itemprop="name">Marco Cotrufo</h1>
+        <div class="title" itemprop="jobtitle">Full Stack Developer</div>
         <div class="profile">
-          <p>Profile info goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-            felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-            fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.</p>
-        </div>
+          <p>I am a software engineer in love with my work, looking for continuous challenges and new horizons. &#34;Anyone who stops learning is old, twenty or eighty years old. Anyone who continues to learn remains young. The greatest thing in life is to keep one&#39;s mind young&#34; (Henry Ford).</p>
+        </div> 
         
       </div>
       
@@ -80,7 +80,7 @@
         <ul class="list-inline">
           <li class="email list-inline-item">
             <i class="fa fa-envelope"></i>
-            <a href="mailto:marco.cotrufo@devncode.it">marco.cotrufo@devncode.it</a>
+            <a itemprop="email" href="mailto:marco.cotrufo@devncode.it">marco.cotrufo@devncode.it</a>
           </li>
           <li class="website list-inline-item">
             <i class="fa fa-globe"></i>
