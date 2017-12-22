@@ -1,0 +1,109 @@
+baseURL = "http://marcocotrufo.me/"
+languageCode = "en-us"
+theme = "mypage"
+
+[params]
+  title = "Marco Cotrufo - Appasionate software engineer"
+  author = "Marco Cotrufo"
+  description = "The world of a software engineer with a passion for the future"
+
+  [params.profile]
+    skills = ["ObjC", "PHP", "Go", "Java", "Agile", "CI/CD", "DevOps"]
+    email = "marco.cotrufo@devncode.it"
+
+  [[params.experience]]
+    Company = "Amaris"
+    Place = "Turin, Italy"
+    Title = "Consultant"
+    When = "2016 - Present"
+    Description = "Blablabla"
+    Skills = ["Fullstack", ".NET", "Java"]
+
+  [[params.skills]]
+    Name = "Python&Django"
+    Description = "My first love ♥. I have developed several web applications (CMS, CRM, websites) with Django, starting from version 1.0"
+    Percent = 98      
+    Years = 9
+
+  [[params.skills]]
+    Name = "Javascript"
+    Description = "I was lucky to work with several frameworks over the years, starting with Backbone, KnockoutJS and lately Angular and ReactJS."
+    Percent = 95    
+    Years = 6
+
+  [[params.skills]]
+    Name = ".NET"
+    Description = "It is the environment at the enterprise level that I use most, I have been able to work in different environments and frameworks (WCF, WPF, ASP.Net and Core)."
+    Percent = 80 
+    Years = 5
+
+  # Social networks
+  [[params.social]]
+    URL = "https://www.linkedin.com/in/marcocotrufo/"
+    Icon = "linkedin" 
+
+  [[params.social]]
+    URL = "https://github.com/marcocot"
+    Icon = "github"
+
+  # Projects
+  [[params.projects]]
+    Name = "GOTW"
+    Type = "frontend"
+    URL = "http://gotw.uefa.com"
+    Image = "/images/projects/gotw.png"
+    Skills = "ReactJS"
+  
+  [[params.projects]]
+    Name = "GOTS"
+    Type = "frontend"
+    URL = "http://gots.uefa.com"
+    Image = "/images/projects/gots.png"
+    Skills = "ReactJS"
+
+  [[params.projects]]
+    Name = "#WePlayStrong"
+    Type = "frontend"
+    URL = "http://weplaystrong.org"
+    Image = "/images/projects/weplaystrong.png"
+    Skills = "AngularJS"
+
+  [[params.projects]]
+    Name = "UEFA UCL"
+    Type = "frontend backend"
+    URL = "http://www.uefa.com/uefachampionsleague/index.html"
+    Image = "/images/projects/uefaucl.png"
+    Skills = "Full Stack (.NET, AngularJS)"    
+
+  [[params.projects]]
+    Name = "UEFA Euro 2016"
+    Type = "frontend backend"
+    URL = "http://euro2016.com"
+    Image = "/images/projects/euro2016.png"
+    Skills = "Full Stack (.NET, AngularJS)"
+    
+  [[params.projects]]
+    Name = "Kleos"
+    Type = "backend"
+    URL = "http://www.avvocatiliberi.it/"
+    Image = "/images/projects/kleos.png"
+    Skills = ".NET"    
+
+  [[params.projects]]
+    Name = "Kleos iOS"
+    Type = "backend frontend"
+    URL = "https://itunes.apple.com/it/app/kleos/id683140734"
+    Image = "/images/projects/kleos_mobile.png"
+    Skills = "ObjC"      
+
+[[menu.main]]
+  name = "Hire me!"
+  url = "mailto:marco.cotrufo@devncode.it"
+  identifier = "fa-paper-plane"
+  weight     = 1
+
+[[menu.main]]
+  name = "Download my resume"
+  url = "mailto:marco.cotrufo@devncode.it"
+  identifier = "download-resume"  
+  weight     = 0

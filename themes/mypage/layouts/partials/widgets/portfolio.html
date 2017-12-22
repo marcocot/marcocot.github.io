@@ -1,0 +1,34 @@
+<section id="portfolio-section" class="portfolio-section section">
+    <h2 class="section-title">Portfolio</h2>
+    <ul id="filters" class="filters clearfix">
+      <li class="type active" data-filter="*">All</li>
+      <li class="type" data-filter=".backend">Back-end</li>
+      <li class="type" data-filter=".frontend">Front-end</li>
+    </ul>
+    <!--//filters-->
+    <div class="items-wrapper isotope row">
+
+      {{ range $.Site.Params.projects }}
+      <div class="item {{ .Type }} col-lg-3 col-6">
+        <div class="item-inner">
+          <figure class="figure">
+            <img class="img-fluid" src="{{ .Image | relURL }}" alt="" />
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title">
+              <a href="{{ .URL }}" rel="nofollow" target="_blank">{{ .Name }}</a>
+            </h3>
+            <div class="meta">{{ .Skills }}</div>
+          </div>
+          <!--//content-->
+          <a class="link-mask" href="{{ .URL }}" target="_blank" rel="nofollow"></a>
+        </div>
+        <!--//item-inner-->
+      </div>
+      <!--//item-->
+      {{ end }}
+
+    </div>
+    <!--//item-wrapper-->
+
+  </section>

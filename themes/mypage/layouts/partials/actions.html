@@ -1,0 +1,7 @@
+<div class="actions">  
+  {{ range $.Site.Menus.main }}
+  <a class="btn d-none d-md-inline-block" href="{{ .URL }}">
+    {{ .Pre }} {{ .Name }}
+  </a>
+  {{ end }}
+</div>

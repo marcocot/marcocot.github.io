@@ -1,0 +1,9 @@
+<ul class="social list-inline">
+    {{ range $.Site.Params.social }}
+    <li class="list-inline-item">
+      <a href="{{ .URL }}" rel="me nofollow">
+        <i class="fa fa-{{ .Icon }}" aria-hidden="true"></i>
+      </a>
+    </li>
+    {{ end }}
+  </ul>

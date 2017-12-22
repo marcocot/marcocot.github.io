@@ -1,0 +1,33 @@
+<section id="experiences-section" class="experiences-section section">
+    <h2 class="section-title">Work Experiences</h2>
+    <div class="timeline">
+
+      {{ range $.Site.Params.experience }}
+      <div class="item">
+        <div class="work-place">
+          <h3 class="place">{{ .Company }}</h3>
+          <div class="location">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>{{ .Place }}</div>
+        </div>
+        <div class="job-meta">
+          <div class="title">{{ .Title }}</div>
+          <div class="time">{{ .When }}</div>
+        </div>
+        <!--//job-meta-->
+        <div class="job-desc">
+          <p>{{ .Description }}</p>
+          <ul>
+            {{ range .Skills}}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        <!--//job-desc-->
+      </div>
+      <!--//item-->
+      {{ end }}
+
+    </div>
+    <!--//timeline-->
+
+  </section>
