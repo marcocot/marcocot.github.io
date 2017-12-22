@@ -171,6 +171,6 @@ googleAnalytics = "UA-101336151-2"
 
 [[menu.actions]]
   name = "Download my resume"
-  url = "mailto:marco.cotrufo@devncode.it"
+  url = "/pdf/cv.pdf"
   identifier = "download-resume"  
   weight     = 0
