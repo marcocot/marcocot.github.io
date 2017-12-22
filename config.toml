@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "mypage"
 copyright = "(c) Marco Cotrufo"
 enableRobotsTXT = true
+googleAnalytics = "UA-101336151-2"
 
 [params]
   title = "Marco Cotrufo - Appasionate software engineer"
