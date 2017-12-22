@@ -1,30 +1,67 @@
 baseURL = "http://marcocotrufo.me/"
 languageCode = "en-us"
 theme = "mypage"
+copyright = "(c) Marco Cotrufo"
 
 [params]
   title = "Marco Cotrufo - Appasionate software engineer"
+  jobtitle = "Full Stack Developer"
   author = "Marco Cotrufo"
+  first_name = "Marco"
+  last_name = "Cotrufo"
   description = "The world of a software engineer with a passion for the future"
 
   [params.profile]
-    skills = ["ObjC", "PHP", "Go", "Java", "Agile", "CI/CD", "DevOps"]
+    skills = ["ObjC", "PHP", "Go", "Java", "NodeJS", "Agile", "CI/CD", "DevOps"]
     email = "marco.cotrufo@devncode.it"
     description = "I am a software engineer in love with my work, looking for continuous challenges and new horizons. \"Anyone who stops learning is old, twenty or eighty years old. Anyone who continues to learn remains young. The greatest thing in life is to keep one's mind young\" (Henry Ford)."
+    telephone = "00393669587334"
 
   [[params.experience]]
     Company = "Amaris"
     Place = "Turin, Italy"
     Title = "Consultant"
-    When = "2016 - Present"
-    Description = "Blablabla"
-    Skills = ["Fullstack", ".NET", "Java"]
+    When = "2015 - Present"
+    Description = "During this experience I had the chance to work with large companies at European level. I worked mainly on development in .NET and frontend using AngularJS and ReactJS and implementing CI/CD solutions in the Amazon AWS environment."
+    Skills = ["ReactJS", "AnguarJS", ".NET", "Java"]
+
+  [[params.experience]]
+    Company = "Wolters Kluwer"
+    Place = "Gioia del Colle (BA), Italy"
+    Title = "Backend developer"
+    When = "2015"
+    Description = "I worked on developing \"Kleos\", in the .NET environment (WCF, WPF) and the mobile version for iOS in ObjectiveC."
+    Skills = [".NET", "ObjC"]    
+
+  [[params.experience]]
+    Company = "Know K."
+    Place = "Foggia, Italy"
+    Title = "Technical Leader"
+    When = "2012 - 2015"
+    Description = "I directed the development team for the realization of the product \"PortaleKK\", a management software for schools. I designed the software architecture in the cloud and I worked on the software infrastructure as a technical leader."
+    Skills = ["PHP", "AWS"]        
+
+  [[params.experience]]
+    Company = "Know K."
+    Place = "Foggia, Italy"
+    Title = "Software developer"
+    When = "2009 - 2012"
+    Description = "During this experience I was able to work on a multitude of projects with different skills: I was mainly involved in web development with Django and development of applications for clients in various technologies, such as .NET and Java."
+    Skills = ["PHP", "Python", "Django", ".NET", "Java"]
+
+  [[params.experience]]
+    Company = "Bernini Group."
+    Place = "Manfredonia (FG), Italy"
+    Title = "Web developer"
+    When = "2004"
+    Description = "I worked almost entirely on web development using CMS platforms (Drupal, Xoops) and customer support."
+    Skills = ["PHP"]               
 
   [[params.skills]]
     Name = "Python&Django"
     Description = "My first love ♥. I have developed several web applications (CMS, CRM, websites) with Django, starting from version 1.0"
     Percent = 98      
-    Years = 9
+    Years = 8
 
   [[params.skills]]
     Name = "Javascript"
@@ -49,21 +86,21 @@ theme = "mypage"
 
   # Projects
   [[params.projects]]
-    Name = "GOTW"
+    Name = "UEFA GOTW"
     Type = "frontend"
     URL = "http://gotw.uefa.com"
     Image = "/images/projects/gotw.png"
     Skills = "ReactJS"
   
   [[params.projects]]
-    Name = "GOTS"
+    Name = "UEFA GOTS"
     Type = "frontend"
     URL = "http://gots.uefa.com"
     Image = "/images/projects/gots.png"
     Skills = "ReactJS"
 
   [[params.projects]]
-    Name = "#WePlayStrong"
+    Name = "UEFA #WePlayStrong"
     Type = "frontend"
     URL = "http://weplaystrong.org"
     Image = "/images/projects/weplaystrong.png"
@@ -74,14 +111,14 @@ theme = "mypage"
     Type = "frontend backend"
     URL = "http://www.uefa.com/uefachampionsleague/index.html"
     Image = "/images/projects/uefaucl.png"
-    Skills = "Full Stack (.NET, AngularJS)"    
+    Skills = "Full Stack"    
 
   [[params.projects]]
     Name = "UEFA Euro 2016"
     Type = "frontend backend"
     URL = "http://euro2016.com"
     Image = "/images/projects/euro2016.png"
-    Skills = "Full Stack (.NET, AngularJS)"
+    Skills = "Full Stack"
     
   [[params.projects]]
     Name = "Kleos"
@@ -94,16 +131,43 @@ theme = "mypage"
     Name = "Kleos iOS"
     Type = "backend frontend"
     URL = "https://itunes.apple.com/it/app/kleos/id683140734"
-    Image = "/images/projects/kleos_mobile.png"
+    Image = "/images/projects/kleos.png"
     Skills = "ObjC"      
 
+  [[params.projects]]
+    Name = "ilSipontino"
+    Type = "backend frontend"
+    URL = "http://ilsipontino.net"
+    Image = "/images/projects/ilsipontino.png"
+    Skills = "Django"        
+
 [[menu.main]]
+  name = "Experiences"
+  url = "#experiences-section"
+  weight = 10
+
+[[menu.main]]
+  name = "Skills"
+  url = "#skills-section"
+  weight = 20
+
+[[menu.main]]
+  name = "Portfolio"
+  url = "#portfolio-section"
+  weight = 30
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact-section"
+  weight = 40
+
+[[menu.actions]]
   name = "Hire me!"
   url = "mailto:marco.cotrufo@devncode.it"
   identifier = "fa-paper-plane"
   weight     = 1
 
-[[menu.main]]
+[[menu.actions]]
   name = "Download my resume"
   url = "mailto:marco.cotrufo@devncode.it"
   identifier = "download-resume"  

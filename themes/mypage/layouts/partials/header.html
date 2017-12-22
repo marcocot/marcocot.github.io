@@ -1,0 +1,51 @@
+<header class="header">
+  <div class="top-bar container-fluid">
+    {{ partial "actions.html" . }}
+    <!--//actions-->
+    {{ partial "socials.html" . }}
+    <!--//social-->
+  </div>
+  <!--//top-bar-->
+
+  <div class="intro">
+    <div class="container text-center">
+      <img class="profile-image" src="{{ "/images/profile-image.png" | relURL }}" alt="{{ .Site.Params.Author }}" title="{{ .Site.Params.Author }}">
+      <h1 class="name" itemprop="name">{{ .Site.Params.Author }}</h1>
+      <div class="title" itemprop="jobtitle">{{ .Site.Params.Jobtitle }}</div>
+      <div class="profile">
+        <p>{{ .Site.Params.profile.description }}</p>
+      </div>
+      <!--//profile-->
+    </div>
+    <!--//container-->
+  </div>
+  <!--//intro-->
+
+  <div class="contact-info">
+    <div class="container text-center">
+      <ul class="list-inline">
+        <li class="email list-inline-item">
+          <i class="fa fa-envelope"></i>
+          <a itemprop="email" href="mailto:{{ .Site.Params.profile.email }}">{{ .Site.Params.profile.email }}</a>
+        </li>
+        <li class="website list-inline-item">
+          <i class="fa fa-globe"></i>
+          <a href="http://devncode.it" target="_blank">devncode.it</a>
+        </li>
+      </ul>
+    </div>
+    <!--//container-->
+  </div>
+  <!--//contact-info-->
+
+  <div class="page-nav-space-holder d-none d-md-block">
+    <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
+      <div class="container">
+        {{ partial "menu.html" . }}
+        <!--//page-nav-->
+      </div>
+    </div>
+    <!--//page-nav-wrapper-->
+  </div>
+
+</header>

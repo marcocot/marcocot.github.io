@@ -1,5 +1,5 @@
 <div class="actions">  
-  {{ range $.Site.Menus.main }}
+  {{ range .Site.Menus.actions }}
   <a class="btn d-none d-md-inline-block" href="{{ .URL }}">
     {{ .Pre }} {{ .Name }}
   </a>

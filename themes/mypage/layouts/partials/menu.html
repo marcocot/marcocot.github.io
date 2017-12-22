@@ -1,0 +1,9 @@
+<ul id="page-nav" class="nav page-nav list-inline">
+  {{ range $.Site.Menus.main }}
+  <li class="nav-item">
+    <a class="scrollto nav-link" href="{{ .URL }}">
+      {{ .Pre }} {{ .Name }}
+    </a>
+  </li>
+  {{ end }}
+</ul>
