@@ -23,4 +23,4 @@ hugo
 
 echo "Updating gh-pages branch"
 cp CNAME public/
-cd public && git add --all && git commit -m "Publishing to master (publish.sh)"
+cd public && git add --all && git commit -m "Publishing to master (publish.sh)" && git push -a

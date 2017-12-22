@@ -12,16 +12,16 @@
       <div class="item {{ .Type }} col-lg-3 col-6">
         <div class="item-inner">
           <figure class="figure">
-            <img class="img-fluid" src="{{ .Image | relURL }}" alt="" />
+            <img class="img-fluid" src="{{ .Image | relURL }}" alt="{{ .Name }}" />
           </figure>
           <div class="content text-left">
             <h3 class="sub-title">
-              <a href="{{ .URL }}" rel="nofollow" target="_blank">{{ .Name }}</a>
+              <a href="{{ .URL }}" rel="nofollow" target="_blank" title="{{ .Name }}">{{ .Name }}</a>
             </h3>
             <div class="meta">{{ .Skills }}</div>
           </div>
           <!--//content-->
-          <a class="link-mask" href="{{ .URL }}" target="_blank" rel="nofollow"></a>
+          <a class="link-mask" href="{{ .URL }}" target="_blank" rel="nofollow" title="{{ .Name }}"></a>
         </div>
         <!--//item-inner-->
       </div>
