@@ -163,11 +163,11 @@ googleAnalytics = "UA-101336151-2"
   url = "#contact-section"
   weight = 40
 
-[[menu.actions]]
-  name = "Hire me!"
-  url = "mailto:marco.cotrufo@devncode.it"
-  identifier = "fa-paper-plane"
-  weight     = 1
+# [[menu.actions]]
+#   name = "Hire me!"
+#   url = "mailto:marco.cotrufo@devncode.it"
+#   identifier = "fa-paper-plane"
+#   weight     = 1
 
 [[menu.actions]]
   name = "Download my resume"
