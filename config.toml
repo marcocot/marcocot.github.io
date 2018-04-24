@@ -149,7 +149,14 @@ googleAnalytics = "UA-101336151-2"
     Type = "backend frontend"
     URL = "http://ilsipontino.net"
     Image = "/images/projects/ilsipontino.png"
-    Skills = "Django"        
+    Skills = "Django"      
+
+  [[params.projects]]  
+    Name = "Portale KK"
+    Type = "backend frontend"
+    URL = "http://portalekk.it/"
+    Image = "/images/projects/portalekk.png"
+    Skills = "PHP"
 
   [[params.projects]]
     Name = "WuKumpra"
