@@ -103,6 +103,13 @@ googleAnalytics = "UA-101336151-2"
     Skills = "ReactNative"
 
   [[params.projects]]
+    Name = "UEFA Futsal EURO"
+    Type = "frontend"
+    URL = "http://www.uefa.com/futsaleuro/index.html"
+    Image = "/images/projects/futsaleuro.png"
+    Skills = "Javascript, C#"    
+
+  [[params.projects]]
     Name = "UEFA GOTW"
     Type = "frontend"
     URL = "http://gotw.uefa.com"
