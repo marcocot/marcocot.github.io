@@ -25,7 +25,7 @@ googleAnalytics = "UA-101336151-2"
     Title = "Consultant"
     When = "2015 - Present"
     Description = "During this experience I had the chance to work with large companies at European level. I worked mainly on development in .NET and frontend using AngularJS and ReactJS and implementing CI/CD solutions in the Amazon AWS environment."
-    Skills = ["ReactJS", "AnguarJS", ".NET", "Java"]
+    Skills = ["ReactJS", "React Native", "AnguarJS", ".NET", "Java"]
 
   [[params.experience]]
     Company = "Wolters Kluwer"
