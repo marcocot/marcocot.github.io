@@ -96,6 +96,13 @@ googleAnalytics = "UA-101336151-2"
 
   # Projects
   [[params.projects]]
+    Name = "UEFA NTC iOS"
+    Type = "frontend"
+    URL = "https://itunes.apple.com/us/app/national-team-competitions/id1061115611?mt=8"
+    Image = "/images/projects/ntcios.png"
+    Skills = "ReactNative"
+
+  [[params.projects]]
     Name = "UEFA NTC Android"
     Type = "frontend"
     URL = "https://play.google.com/store/apps/details?id=com.uefa.euro2016"
