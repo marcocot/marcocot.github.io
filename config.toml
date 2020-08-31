@@ -20,10 +20,18 @@ googleAnalytics = "UA-101336151-2"
     telephone = "00393669587334"
 
   [[params.experience]]
+    Company = "ORS"
+    Place = "Turin, Italy"
+    Title = "Technical Project Manager"
+    When = "2019 - Present"
+    Description = "I'm responsible for providing technical project planning, management and oversight for key initiatives and implementation projects, ensuring first that these initiatives and projects are closely aligned with company's strategic priorities, and second, that these initiatives and projects are completed on-time, within scope and budget and with an extremely high quality of deliverables."
+    Skills = ["SCRUM", "DevOps", "SRE", "Cloud computing"]
+
+  [[params.experience]]
     Company = "Amaris"
     Place = "Turin, Italy"
     Title = "Consultant"
-    When = "2015 - Present"
+    When = "2015 - 2019"
     Description = "During this experience I had the chance to work with large companies at European level. I worked mainly on development in .NET and frontend using AngularJS and ReactJS and implementing CI/CD solutions in the Amazon AWS environment."
     Skills = ["ReactJS", "React Native", "AnguarJS", ".NET", "Java"]
 
