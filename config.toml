@@ -41,7 +41,7 @@ googleAnalytics = "UA-101336151-2"
     Title = "Backend developer"
     When = "2015"
     Description = "I worked on developing \"Kleos\", in the .NET environment (WCF, WPF) and the mobile version for iOS in ObjectiveC."
-    Skills = [".NET", "ObjC"]    
+    Skills = [".NET", "ObjC"]
 
   [[params.experience]]
     Company = "Know K."
@@ -49,7 +49,7 @@ googleAnalytics = "UA-101336151-2"
     Title = "Technical Leader"
     When = "2012 - 2015"
     Description = "I directed the development team for the realization of the product \"PortaleKK\", a management software for schools. I designed the software architecture in the cloud and I worked on the software infrastructure as a technical leader."
-    Skills = ["PHP", "AWS"]        
+    Skills = ["PHP", "AWS"]
 
   [[params.experience]]
     Company = "OttoPartners"
@@ -57,7 +57,7 @@ googleAnalytics = "UA-101336151-2"
     Title = "Technical Leader"
     When = "2013"
     Description = "Development of \"WuKumpra\", a portal for B2C, developed in Python/Django. I managed a team of 3 people and implemented Continus Integration solutions, Continus Development and business inteligence."
-    Skills = ["Python", "Django", "Javascript"]        
+    Skills = ["Python", "Django", "Javascript"]
 
   [[params.experience]]
     Company = "Know K."
@@ -73,30 +73,30 @@ googleAnalytics = "UA-101336151-2"
     Title = "Web developer"
     When = "2004"
     Description = "I worked almost entirely on web development using CMS platforms (Drupal, Xoops) and customer support."
-    Skills = ["PHP"]               
+    Skills = ["PHP"]
 
   [[params.skills]]
     Name = "Python&Django"
     Description = "My first love ♥. I have developed several web applications (CMS, CRM, websites) with Django, starting from version 1.0"
-    Percent = 98      
+    Percent = 98
     Years = 8
 
   [[params.skills]]
     Name = "Javascript"
     Description = "I was lucky to work with several frameworks over the years, starting with Backbone, KnockoutJS and lately Angular and ReactJS."
-    Percent = 95    
+    Percent = 95
     Years = 6
 
   [[params.skills]]
     Name = ".NET"
     Description = "It is the environment at the enterprise level that I use most, I have been able to work in different environments and frameworks (WCF, WPF, ASP.Net and Core)."
-    Percent = 80 
+    Percent = 80
     Years = 5
 
   # Social networks
   [[params.social]]
     URL = "https://www.linkedin.com/in/marcocotrufo/"
-    Icon = "linkedin" 
+    Icon = "linkedin"
 
   [[params.social]]
     URL = "https://github.com/marcocot"
@@ -122,14 +122,14 @@ googleAnalytics = "UA-101336151-2"
     Type = "frontend"
     URL = "http://www.uefa.com/uefanationsleague/index.html"
     Image = "/images/projects/unl.png"
-    Skills = "Javascript, C#"      
+    Skills = "Javascript, C#"
 
   [[params.projects]]
     Name = "UEFA Futsal EURO"
     Type = "frontend"
     URL = "http://www.uefa.com/futsaleuro/index.html"
     Image = "/images/projects/futsaleuro.png"
-    Skills = "Javascript, C#"    
+    Skills = "Javascript, C#"
 
   [[params.projects]]
     Name = "UEFA GOTW"
@@ -137,7 +137,7 @@ googleAnalytics = "UA-101336151-2"
     URL = "http://gotw.uefa.com"
     Image = "/images/projects/gotw.png"
     Skills = "ReactJS"
-  
+
   [[params.projects]]
     Name = "UEFA GOTS"
     Type = "frontend"
@@ -157,7 +157,7 @@ googleAnalytics = "UA-101336151-2"
     Type = "frontend backend"
     URL = "http://www.uefa.com/uefachampionsleague/index.html"
     Image = "/images/projects/uefaucl.png"
-    Skills = "Full Stack"    
+    Skills = "Full Stack"
 
   [[params.projects]]
     Name = "UEFA Euro 2016"
@@ -165,29 +165,29 @@ googleAnalytics = "UA-101336151-2"
     URL = "http://euro2016.com"
     Image = "/images/projects/euro2016.png"
     Skills = "Full Stack"
-    
+
   [[params.projects]]
     Name = "Kleos"
     Type = "backend"
     URL = "http://www.avvocatiliberi.it/"
     Image = "/images/projects/kleos.png"
-    Skills = ".NET"    
+    Skills = ".NET"
 
   [[params.projects]]
     Name = "Kleos iOS"
     Type = "backend frontend"
     URL = "https://itunes.apple.com/it/app/kleos/id683140734"
     Image = "/images/projects/kleos.png"
-    Skills = "ObjC"      
+    Skills = "ObjC"
 
   [[params.projects]]
     Name = "ilSipontino"
     Type = "backend frontend"
     URL = "http://ilsipontino.net"
     Image = "/images/projects/ilsipontino.png"
-    Skills = "Django"      
+    Skills = "Django"
 
-  [[params.projects]]  
+  [[params.projects]]
     Name = "Portale KK"
     Type = "backend frontend"
     URL = "http://portalekk.it/"
@@ -199,7 +199,7 @@ googleAnalytics = "UA-101336151-2"
     Type = "backend frontend"
     URL = "http://wukumpra.it"
     Image = "/images/projects/wukumpra.png"
-    Skills = "Django"      
+    Skills = "Django"
 
 [[menu.main]]
   name = "Experiences"
@@ -229,6 +229,6 @@ googleAnalytics = "UA-101336151-2"
 
 [[menu.actions]]
   name = "Download my resume"
-  url = "/pdf/cv.pdf"
-  identifier = "download-resume"  
+  url = "https://github.com/marcocot/cv/releases/download/0.0.2/cv_15.pdf"
+  identifier = "download-resume"
   weight     = 0
